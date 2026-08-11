@@ -1,0 +1,10 @@
+.brand-icon {
+  width: 36px;
+  height: 36px;
+  display: block;
+  object-fit: cover;
+  border: 1px solid rgba(255, 255, 255, 0.13);
+  border-radius: 10px;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.38),
+    0 0 22px rgba(143, 124, 255, 0.1);
+}
