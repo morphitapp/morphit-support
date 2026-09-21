@@ -9,20 +9,28 @@ Static, dependency-free website prepared for GitHub Pages and App Store Connect.
 3. Change the copyright year when needed.
 4. Treat “Morphit” as a public studio identity unless and until you register a separate legal entity. App Store seller information may still display your legal individual name.
 
-## Publish with GitHub Pages
+## Your live GitHub Pages setup
 
-1. Create a public GitHub repository, such as `morphit-site`.
-2. Upload everything in this folder to the repository root.
-3. In the repository, open **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select the `main` branch and `/ (root)`, then save.
-6. GitHub will provide a URL similar to:
-   `https://YOUR-GITHUB-USERNAME.github.io/morphit-site/`
+- GitHub account: `morphitapp`
+- Repository: `morphit-support`
+- Website: `https://morphitapp.github.io/morphit-support/`
 
-## Starbound: Vector App Store Connect URLs
+Upload the files to the `main` branch. In **Settings → Pages**, keep **Deploy from a branch**, `main`, and `/ (root)` selected.
 
-- Marketing URL: `https://YOUR-GITHUB-USERNAME.github.io/morphit-site/starbound-vector/`
-- Support URL: `https://YOUR-GITHUB-USERNAME.github.io/morphit-site/starbound-vector/support.html`
-- Privacy Policy URL: `https://YOUR-GITHUB-USERNAME.github.io/morphit-site/starbound-vector/privacy.html`
+Your repository already contains `privacy.html`, `support.html`, `icon.css`, and `morphit-icon.png` for the Morphit utility app. Keep those root files. Add the new `starbound-vector` folder alongside them; do not move its files into the repository root.
+
+## App Store Connect URLs
+
+### Morphit
+
+- Marketing URL: `https://morphitapp.github.io/morphit-support/`
+- Support URL: `https://morphitapp.github.io/morphit-support/support.html`
+- Privacy Policy URL: `https://morphitapp.github.io/morphit-support/privacy.html`
+
+### Starbound: Vector
+
+- Marketing URL: `https://morphitapp.github.io/morphit-support/starbound-vector/`
+- Support URL: `https://morphitapp.github.io/morphit-support/starbound-vector/support.html`
+- Privacy Policy URL: `https://morphitapp.github.io/morphit-support/starbound-vector/privacy.html`
 
 The site uses only local HTML and CSS. It has no cookies, analytics, remote fonts, forms, trackers, or build process.
